@@ -17,7 +17,7 @@
         var chart = new CanvasJS.Chart("chartContainer",
         {
           title:{
-            text: "Books Read/Unread"
+            text: "Books Read and Unread"
           },
           legend: {
             maxWidth: 350,
@@ -68,6 +68,7 @@
         {% block content %}
         {% endblock %}
     </div>
+    <div id="chartContainer" style="height: 300px; width: 100%;"></div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
